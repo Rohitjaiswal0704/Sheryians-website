@@ -1,0 +1,401 @@
+@media(max-width:600px){
+
+    .nav{
+        z-index: 10000;
+    }
+
+    .main{
+        width: 100vw;
+    }
+    .nav>.navright{
+        display: none;
+    }
+    .nav>.navleft{
+        width: 50vw; 
+    }
+    .nav>.navleft>img{
+        width: 6.5vw; 
+        margin-left: 16vw;
+    }
+    .nav>.navleft>h1{
+        /* background-color: red; */
+        white-space:nowrap;
+        font-size: 13.5px; 
+        margin-left: 3vw;
+    }
+    .nav>.navleft>span{
+        width: 0.5vw;
+        height: 2.3vh;
+    }
+    /*----------------------- */
+    .container1{
+        flex-direction: column;
+    }
+    .container1>.left{
+        width: 100vw;
+        height: 100vh;
+        padding: 20vw 0 0 3.6vw;
+        background-color: #C8E4EB;
+    }
+    .container1>.left>h1{
+        Font-size:34px;
+    }
+    .container1>.left>.left-1>div>i{
+        font-size: 9vw;
+        color: white;  
+    }
+    .container1>.left>.left-1>div{
+        margin: 1.5vmax 0 0 0;
+    }
+    .container1>.left>button{
+        padding: 2.4vmax 2.8vmax;
+        margin-top: 3vmax;
+    }
+    .container1>.left>.left-2>img{
+        width: 12vw;
+        height: 6vh;
+    }
+    .container1>.left>.left-2>p{
+        width: 75vw;
+    }
+    .container1>.left>.left-2{
+        margin-top: 6vmax;
+        margin-bottom: 7vmax;
+    }
+    /* ---------.container1--right--------------*/
+    .container1>.right{
+        width: 100vw;
+    }
+
+    /*--------------container2-------------*/
+    .container2{
+        width: 100vw;
+        height: 90vh;
+        /* background-color: aqua; */
+        padding: 0 4vmax 0 4vmax;
+    }
+    .container2>h1{
+        margin-top: 15vmax;
+    }
+    .container2>.company-logo1>img{
+        margin:  0 5vmax 0 3vmax; 
+    }
+    /* ----------------container3-------------- */
+    
+    .container3{
+        flex-direction: column-reverse;
+        width: 100vw;
+        height: 100vh;  
+    }
+    .container3>.left{
+        width: 100vw;
+        /* background-color: aqua; */
+    }
+    .container3>.left>img{
+        width: 90vw;
+    }
+
+
+    /*--------------*/
+    .container3>.right{
+        width: 100vw;
+        padding: 6vmax 5vmax;  
+    }
+    .container3>.right>p{
+        width: 75vw;
+        Font-size: 20px;
+        margin-top: 2vmax;
+    }
+    .container3>.right>button{
+        margin-top: 5vmax;
+        padding: 2.5vmax 4vmax;
+        Font-size: 16px;
+    }
+    /* -------------container4-------------- */
+    .container4{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .container4>.left{
+        width: 100vw;
+        padding: 7vmax 5vmax;
+    }
+    .container4>.left>p{
+        width: 85%;
+        Font-size: 19px;
+    }
+    .container4>.left>button{
+        padding: 2.5vmax 4vmax;
+        Font-size: 16px;
+        margin-top: 4vmax;
+    }
+    .container4>.right{
+        width: 100vw;
+    }
+     
+    /*------------------container5----------*/
+    .container5{
+        width: 100vw;
+        height: 240vh;
+
+    }
+    .container5>.container5-text1{
+        flex-direction: column;
+        padding: 4vmax 5vmax;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .container5>.container5-text1>h1{
+        margin-top: 3vmax;
+    }
+    .container5>.container5-text1>p{
+        margin-top: 2vmax;
+    }
+    .container5>.container5-text1>button{
+        margin-top: 3vmax;
+        Font-size: 15px;
+        padding: 1.2vmax 2vmax;
+        border-radius: 0.8vmax;
+    }
+    /*-------box----all----------- */
+    .container5>.all-box{
+        width: 100vw;
+        height: 190vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       gap: 3vmax;
+    }
+    /* --- box1-- */
+    .container5>.all-box>.box1{
+        width: 80vw;
+        height: 55vh;
+        padding: 2vmax 2vmax;
+    }
+    .container5>.all-box>.box1>.box1-image{
+        width: 71.5vw;
+        height: 20vh;
+    }
+    .container5>.all-box>.box1>.box1-image>img{
+        width: 71.5vw;
+    }
+    .container5>.all-box>.box1>h1{
+        width: 72vw;
+        margin-top: 3.5vmax;
+        Font-size: 17.5px;
+    }
+    .container5>.all-box>.box1>p{
+        margin-top: 2vmax;
+        /* background-color: aqua; */
+        width: 72vw;
+        Font-size: 10px;
+        Line-height: 18px;
+    }
+    .container5>.all-box>.box1>.box1-bottom{
+        margin-top: 3vmax;
+        gap: 2vmax;
+    }
+
+    /* ----- box2------ */
+
+    .container5>.all-box>.box2{
+        width: 80vw;
+        height: 55vh;
+        padding: 2vmax 2vmax;
+    }
+    .container5>.all-box>.box2>.box2-image{
+        width: 71.5vw;
+        height: 20vh;
+    }
+    .container5>.all-box>.box2>.box2-image>img{
+        width: 71.5vw;
+    }
+    .container5>.all-box>.box2>h1{
+        margin-top: 3.5vmax;
+    }
+    .container5>.all-box>.box2>p{
+        width: 72vw;
+        display: flex;
+        Font-size: 14px;
+        /* background-color: aqua; */
+    }
+    .container5>.all-box>.box2>.box2-bottom{
+        margin-top: 2vmax;
+        gap: 2vmax;
+    }
+    
+    /* ------- box3------- */
+
+    .container5>.all-box>.box3{
+        width: 80vw;
+        height: 55vh;
+    }
+    .container5>.all-box>.box3>.box3-image{
+        width: 71.5vw;
+    }
+    .container5>.all-box>.box3>.box3-image>img{
+        width: 71.5vw;
+    }
+    .container5>.all-box>.box3>h1{
+        margin-top: 3vmax;
+    }
+    .container5>.all-box>.box3>p{
+        width: 71vw;
+        margin-top: 2vmax;
+    }
+    .container5>.all-box>.box3>.box3-bottom{
+        margin-top: 2vmax;
+        gap: 2vmax;
+    }
+    .container5>.all-box>.arrow1-button{
+        width: 12vw;
+        height: 6vh;
+    }
+    .container5>.all-box>.arrow1-button>i{
+        font-size: 4vmax;
+    }
+    .container5>.all-box>.arrow2-button{
+        width: 12vw;
+        height: 6vh;
+    }
+    .container5>.all-box>.arrow2-button>i{
+        font-size: 4vmax;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* -----container6-------- */
+    .container6>.container6-text1{
+        padding: 1vmax 7vmax;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .container6>.container6-text1>p{
+        width: 60vw;
+        margin-top: 2vmax;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        /* background-color: aqua; */
+    }
+    .container6>.container6-text1>button{
+        padding: 1.2vmax 1.8vmax; 
+        margin-top: 2vmax;
+    }
+
+    /* images1 */
+    .container6>.all-box-image{
+        width: 100vw;
+        height: 210vh;
+        flex-direction: column;
+        padding: 5vmax 5vmax 0 5vmax;
+    }
+    .container6>.all-box-image>.box1-image{
+        width: 80vw;
+        height: 53.6vh;
+        flex-direction: column;
+    }
+    .container6>.all-box-image>.box1-image>span{
+        width: 63vw;
+        top: 60%;
+        height: 18vh;
+    }
+    /* images2 */
+    .container6>.all-box-image>.box2-image{
+        width: 80vw;
+        height: 61.8vh;
+        flex-direction: column;
+    }
+    .container6>.all-box-image>.box2-image>span{
+        width: 63vw;
+        height: 18vh;
+        top: 65%;
+    }
+     /* images3 */
+     .container6>.all-box-image>.box3-image{
+        width: 80vw;
+        height: 64vh;
+        flex-direction: column;
+     }
+     .container6>.all-box-image>.box3-image>span{
+        width: 63vw;
+        height: 20vh;
+        padding: 3vmax 2vmax;
+        top: 63%;
+     }
+     .container6>.all-box-image>.arrow11-button{
+        width: 12vw;
+        height: 6vh;
+     }
+     .container6>.all-box-image>.arrow11-button>i{
+        font-size: 4vmax;
+     }
+     .container6>.all-box-image>.arrow22-button{
+        width: 12vw;
+        height: 6vh;
+     }
+     .container6>.all-box-image>.arrow22-button>i{
+        font-size: 4vmax;
+     }
+
+
+
+    /* -----------container7--------- */
+    .container7{
+        width: 100vw;
+        padding: 2vmax 5vmax;
+    }
+    .container7>p{
+        margin-top: 120vmax;
+    }
+    .container7>h1{
+        width: 60vw;
+        white-space: nowrap;
+    }
+    
+    .container7>.textbottom{
+        flex-direction: column;
+    }
+    .container7>.textbottom>.textbottom-1{
+        width: 80vw;
+        height: 60vh;
+    }
+    .container7>.textbottom>.textbottom-1>h2{
+        width: 50vw;
+        Font-size: 18px;
+    }
+    .container7>.textbottom>.textbottom-2{
+        width: 80vw;
+        height: 70vh;
+        padding: 0 0 0 0vmax;
+       margin-top: 1vmax;
+    }
+    .container7>.textbottom>.textbottom-2>h1{
+        Font-size: 35px;
+    }
+    .container7>.image-dgiti{
+        width: 33%;
+    }
+   /* ----------------menubar---------- */
+   .nav>i{
+     display: initial; 
+    margin-left: 18vmax;
+    font-size: 3.5vmax;
+   }
+   .menuclick{
+    display: initial;
+    width: 80vw;
+    height: 200vw;
+    transition: 0.3s linear;
+   }
+
+}
