@@ -11,8 +11,10 @@
         display: none;
     }
     .nav>.navleft{
-        width: 50vw; 
+        width: 50vw;
+      
     }
+   
     .nav>.navleft>img{
         width: 6.5vw; 
         margin-left: 16vw;
@@ -353,6 +355,7 @@
     .container7{
         width: 100vw;
         padding: 2vmax 5vmax;
+       
     }
     .container7>p{
         margin-top: 120vmax;
