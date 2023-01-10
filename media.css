@@ -41,7 +41,6 @@
     .container1>.left>h1{
         width: 95vw;
         Font-size:30px;
-        background-color: red;
     }
     .container1>.left>.left-1>div>i{
         font-size: 9vw;
@@ -174,7 +173,6 @@
         margin-top: 2vmax;
         font-size: 6vw;
         line-height: 5vw;
-        background-color: aqua;
     }
     .container5>.container5-text1>button{
         margin-top: 3vmax;
