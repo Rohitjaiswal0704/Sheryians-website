@@ -20,7 +20,6 @@
         margin-left: 16vw;
     }
     .nav>.navleft>h1{
-        /* background-color: red; */
         white-space:nowrap;
         font-size: 13.5px; 
         margin-left: 3vw;
@@ -40,7 +39,9 @@
         background-color: #C8E4EB;
     }
     .container1>.left>h1{
-        Font-size:34px;
+        width: 95vw;
+        Font-size:30px;
+        background-color: red;
     }
     .container1>.left>.left-1>div>i{
         font-size: 9vw;
@@ -73,11 +74,12 @@
     .container2{
         width: 100vw;
         height: 90vh;
-        /* background-color: aqua; */
         padding: 0 4vmax 0 4vmax;
     }
     .container2>h1{
-        margin-top: 15vmax;
+        width: 85vw;
+        font-size: 10vw;
+        margin-top: 10vmax;
     }
     .container2>.company-logo1>img{
         margin:  0 5vmax 0 3vmax; 
@@ -101,31 +103,46 @@
     /*--------------*/
     .container3>.right{
         width: 100vw;
-        padding: 6vmax 5vmax;  
+        padding: 6vmax 5vmax; 
+    }
+    .container3>.right>h1{
+        font-family:helvetica;
+        Font-size: 30px;
+        Font-weight: 700;
+        Line-height: normal;
+        color: rgb(0, 0, 0);
     }
     .container3>.right>p{
         width: 75vw;
-        Font-size: 20px;
+        Font-size: 13px;
         margin-top: 2vmax;
     }
     .container3>.right>button{
         margin-top: 5vmax;
         padding: 2.5vmax 4vmax;
-        Font-size: 16px;
+        Font-size: 15px;
     }
     /* -------------container4-------------- */
     .container4{
         width: 100vw;
         height: 100vh;
         flex-direction: column;
+
     }
     .container4>.left{
         width: 100vw;
         padding: 7vmax 5vmax;
     }
+    .container4>.left>h1{
+        width: 90vw;
+        font-family:helvetica;
+        Font-size: 21px;
+        Font-weight: 700;
+        Line-height: normal;
+    }
     .container4>.left>p{
         width: 85%;
-        Font-size: 19px;
+        Font-size: 15px;
     }
     .container4>.left>button{
         padding: 2.5vmax 4vmax;
@@ -150,13 +167,18 @@
     }
     .container5>.container5-text1>h1{
         margin-top: 3vmax;
+        font-size: 10vw;
+        width: 90vw;
     }
     .container5>.container5-text1>p{
         margin-top: 2vmax;
+        font-size: 6vw;
+        line-height: 5vw;
+        background-color: aqua;
     }
     .container5>.container5-text1>button{
         margin-top: 3vmax;
-        Font-size: 15px;
+        Font-size: 10px;
         padding: 1.2vmax 2vmax;
         border-radius: 0.8vmax;
     }
@@ -183,16 +205,16 @@
         width: 71.5vw;
     }
     .container5>.all-box>.box1>h1{
-        width: 72vw;
+        width: 75vw;
         margin-top: 3.5vmax;
-        Font-size: 17.5px;
+        Font-size: 15px;
+        /* background-color: aqua; */
     }
     .container5>.all-box>.box1>p{
         margin-top: 2vmax;
-        /* background-color: aqua; */
         width: 72vw;
-        Font-size: 10px;
-        Line-height: 18px;
+        Font-size: 7px;
+        Line-height: 11px;
     }
     .container5>.all-box>.box1>.box1-bottom{
         margin-top: 3vmax;
@@ -215,11 +237,12 @@
     }
     .container5>.all-box>.box2>h1{
         margin-top: 3.5vmax;
+        font-size: 5vw;
     }
     .container5>.all-box>.box2>p{
         width: 72vw;
         display: flex;
-        Font-size: 14px;
+        Font-size: 7px;
         /* background-color: aqua; */
     }
     .container5>.all-box>.box2>.box2-bottom{
@@ -282,7 +305,7 @@
         align-items: flex-start;
     }
     .container6>.container6-text1>p{
-        width: 60vw;
+        width: 75vw;
         margin-top: 2vmax;
         align-items: center;
         justify-content: center;
